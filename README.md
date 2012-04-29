@@ -14,9 +14,7 @@ And then put this line in your .vimrc:
 
 ## Functions
 
-   <leader><leader> 
-
-switches to alternate file (header to implementation or reverse). Assumes
+`<leader><leader>` switches to alternate file (header to implementation or reverse). Assumes
 alternate files are in the same directory.
 
 
