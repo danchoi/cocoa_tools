@@ -1,6 +1,10 @@
 " Some VimScript functions that are useful for Cocoa development
 
-func! CocoaVimGoToAltFile()
+if exists("g:CocoaToolsLoaded")
+  finish
+end
+
+func! CocoaTools_GoToAltFile()
   let ext= expand('%:e')
   if ext == 'm'
     let newext = 'h'
@@ -19,6 +23,8 @@ func! CocoaVimGoToAltFile()
   endif
 endfunc!
 
-noremap <leader><leader> :call CocoaVimGoToAltFile()<CR>
+noremap <leader><leader> :call CocoaTools_GoToAltFile()<CR>
+
+let g:CocoaToolsLoaded = 1
 
 " Author: Daniel Choi <dhchoi@gmail.com>
