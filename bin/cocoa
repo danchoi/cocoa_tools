@@ -1,0 +1,15 @@
+
+if ARGV.first #=~ /strip-lead-comments/
+  ARGV.shift
+  puts "Stripping comment headings from files"
+  puts ARGV.inspect
+  ARGV.each do |file|
+    result = IO.popen( "sed -n '/^\s*[^\/]/,$p' ", 'w+') {|pipe|
+      pipe.puts File.read(file)
+      pipe.close_write
+      pipe.read
+      }
+    puts "Fixing #{file}"
+    File.open(file, 'w') {|f| f.puts result}
+  end
+end
