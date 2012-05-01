@@ -20,16 +20,26 @@ target = matches[0]
 
 #exec "cd #{base} && elinks #{target}"
 
-output = `cd #{base} && elinks --dump #{target}`
+
+def readdoc(base, target, mode=:elinks)
+  case mode
+  when :elinks
+    `cd #{base} && elinks --dump-width 120 --dump #{target}`
+  when :cat
+    `cd #{base} && cat #{target}`
+  end
+end
+
+output = readdoc base, target, :elinks
 
 if (redirect_target= output[/Refresh: \[1\](.*)$/, 1])
   puts target
   target = target.sub(%r!/[^/]*$!, '/' + redirect_target)
   puts "Redirecting to: #{target}"
-  output = `cd #{base} && elinks --dump-width 120 --dump #{target}`
-
 end
-puts output
+
+final_output = readdoc base, target, :cat
+puts final_output
 
 
 __END__
