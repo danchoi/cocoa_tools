@@ -30,22 +30,19 @@ Javascript files to study
 
 Location of JS files:
 
-find /Users/choi/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleiOS5_1.iOSLibrary.docset/Contents/ -name '*.js'
-/Users/choi/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleiOS5_1.iOSLibrary.docset/Contents//Resources/Documents/Resources/633/JavaScript/
-/Users/choi/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleiOS5_1.iOSLibrary.docset/Contents//Resources/Documents/Resources/633/JavaScript//adc.js
-/Users/choi/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleiOS5_1.iOSLibrary.docset/Contents//Resources/Documents/Resources/633/JavaScript//book.js
-/Users/choi/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleiOS5_1.iOSLibrary.docset/Contents//Resources/Documents/Resources/633/JavaScript//devpubs.js
-/Users/choi/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleiOS5_1.iOSLibrary.docset/Contents//Resources/Documents/Resources/633/JavaScript//header_toc.js
-/Users/choi/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleiOS5_1.iOSLibrary.docset/Contents//Resources/Documents/Resources/633/JavaScript//help.js
-/Users/choi/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleiOS5_1.iOSLibrary.docset/Contents//Resources/Documents/Resources/633/JavaScript//lib
-/Users/choi/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleiOS5_1.iOSLibrary.docset/Contents//Resources/Documents/Resources/633/JavaScript//lib/ac_media.js
-/Users/choi/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleiOS5_1.iOSLibrary.docset/Contents//Resources/Documents/Resources/633/JavaScript//lib/ac_media_languages
-/Users/choi/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleiOS5_1.iOSLibrary.docset/Contents//Resources/Documents/Resources/633/JavaScript//lib/ac_media_languages/en-US.json
-/Users/choi/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleiOS5_1.iOSLibrary.docset/Contents//Resources/Documents/Resources/633/JavaScript//lib/browserdetect.js
-/Users/choi/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleiOS5_1.iOSLibrary.docset/Contents//Resources/Documents/Resources/633/JavaScript//lib/event_mixins.js
-/Users/choi/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleiOS5_1.iOSLibrary.docset/Contents//Resources/Documents/Resources/633/JavaScript//lib/prototype.js
-/Users/choi/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleiOS5_1.iOSLibrary.docset/Contents//Resources/Documents/Resources/633/JavaScript//lib/scriptaculous.js
-/Users/choi/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleiOS5_1.iOSLibrary.docset/Contents//Resources/Documents/Resources/633/JavaScript//navigation_page.js
-/Users/choi/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleiOS5_1.iOSLibrary.docset/Contents//Resources/Documents/Resources/633/JavaScript//page.js
-/Users/choi/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleiOS5_1.iOSLibrary.docset/Contents//Resources/Documents/Resources/633/JavaScript//tasks.js
-/Users/choi/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleiOS5_1.iOSLibrary.docset/Contents//Resources/Documents/Resources/633/JavaScript//toc.js
+find /Users/choi/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleiOS5_1.iOSLibrary.docset/Contents/Resources/Documents/Resources/633/JavaScript -name '*.js'
+
+/Users/choi/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleiOS5_1.iOSLibrary.docset/Contents/Resources/Documents/Resources/633/JavaScript/adc.js
+/Users/choi/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleiOS5_1.iOSLibrary.docset/Contents/Resources/Documents/Resources/633/JavaScript/book.js
+/Users/choi/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleiOS5_1.iOSLibrary.docset/Contents/Resources/Documents/Resources/633/JavaScript/devpubs.js
+/Users/choi/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleiOS5_1.iOSLibrary.docset/Contents/Resources/Documents/Resources/633/JavaScript/header_toc.js
+/Users/choi/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleiOS5_1.iOSLibrary.docset/Contents/Resources/Documents/Resources/633/JavaScript/help.js
+/Users/choi/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleiOS5_1.iOSLibrary.docset/Contents/Resources/Documents/Resources/633/JavaScript/lib/ac_media.js
+/Users/choi/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleiOS5_1.iOSLibrary.docset/Contents/Resources/Documents/Resources/633/JavaScript/lib/browserdetect.js
+/Users/choi/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleiOS5_1.iOSLibrary.docset/Contents/Resources/Documents/Resources/633/JavaScript/lib/event_mixins.js
+/Users/choi/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleiOS5_1.iOSLibrary.docset/Contents/Resources/Documents/Resources/633/JavaScript/lib/prototype.js
+/Users/choi/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleiOS5_1.iOSLibrary.docset/Contents/Resources/Documents/Resources/633/JavaScript/lib/scriptaculous.js
+/Users/choi/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleiOS5_1.iOSLibrary.docset/Contents/Resources/Documents/Resources/633/JavaScript/navigation_page.js
+/Users/choi/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleiOS5_1.iOSLibrary.docset/Contents/Resources/Documents/Resources/633/JavaScript/page.js
+/Users/choi/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleiOS5_1.iOSLibrary.docset/Contents/Resources/Documents/Resources/633/JavaScript/tasks.js
+/Users/choi/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleiOS5_1.iOSLibrary.docset/Contents/Resources/Documents/Resources/633/JavaScript/toc.js
