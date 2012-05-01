@@ -48,3 +48,45 @@ find /Users/choi/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.do
 /Users/choi/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleiOS5_1.iOSLibrary.docset/Contents/Resources/Documents/Resources/633/JavaScript/toc.js
 
 copying some to js/
+
+
+help.js contains the link following code
+
+if(b){
+  this.docAref="//apple_ref/doc/uid/"+f.uid;
+  f.bookRoot=b
+}
+
+Look for book-root
+
+
+
+
+
+ruby find_apple_refs.rb UISplitViewControllerDelegateProtocol.html
+
+<a name="//apple_ref/doc/uid/TP40009454-CH1" title="UISplitViewControllerDelegate"/>
+<a name="//apple_ref/doc/uid/TP40009454" title="UISplitViewControllerDelegate"/>
+<a name="//apple_ref/occ/intf/UISplitViewControllerDelegate" title="UISplitViewControllerDelegate"/>
+<a name="//apple_ref/doc/uid/TP40009454-CH1-SW1" title="UISplitViewControllerDelegate"/>
+<a name="//apple_ref/doc/uid/TP40009454-CH1-DontLinkElementID_1" title="Overview"/>
+<a name="//apple_ref/doc/uid/TP40009454-CH1-DontLinkElementID_2" title="Tasks"/>
+<a name="//apple_ref/doc/uid/TP40009454-CH1-SW2" title="Showing and Hiding View Controllers"/>
+<a name="//apple_ref/doc/uid/TP40009454-CH1-DontLinkElementID_3" title="Instance Methods"/>
+<a name="//apple_ref/occ/intfm/UISplitViewControllerDelegate/splitViewController:popoverController:willPresentViewController:" title="splitViewController:popoverController:willPresentViewController:"/>
+<a name="//apple_ref/doc/uid/TP40009454-CH1-SW5" title="splitViewController:popoverController:willPresentViewController:"/>
+<a name="//apple_ref/doc/uid/TP40009454-CH1-DontLinkElementID_4"/>
+<a name="//apple_ref/occ/intfm/UISplitViewControllerDelegate/splitViewController:shouldHideViewController:inOrientation:" title="splitViewController:shouldHideViewController:inOrientation:"/>
+<a name="//apple_ref/doc/uid/TP40009454-CH1-SW6" title="splitViewController:shouldHideViewController:inOrientation:"/>
+<a name="//apple_ref/doc/uid/TP40009454-CH1-DontLinkElementID_5"/>
+<a name="//apple_ref/occ/intfm/UISplitViewControllerDelegate/splitViewController:willHideViewController:withBarButtonItem:forPopoverController:" title="splitViewController:willHideViewController:withBarButtonItem:forPopoverController:"/>
+<a name="//apple_ref/doc/uid/TP40009454-CH1-SW3" title="splitViewController:willHideViewController:withBarButtonItem:forPopoverController:"/>
+<a name="//apple_ref/doc/uid/TP40009454-CH1-DontLinkElementID_6"/>
+<a name="//apple_ref/occ/intfm/UISplitViewControllerDelegate/splitViewController:willShowViewController:invalidatingBarButtonItem:" title="splitViewController:willShowViewController:invalidatingBarButtonItem:"/>
+<a name="//apple_ref/doc/uid/TP40009454-CH1-SW4" title="splitViewController:willShowViewController:invalidatingBarButtonItem:"/>
+<a name="//apple_ref/doc/uid/TP40009454-CH1-DontLinkElementID_7"/>
+<a href="#//apple_ref/occ/intfm/UISplitViewControllerDelegate/splitViewController:shouldHideViewController:inOrientation:">&#x2013;&#xA0;splitViewController:shouldHideViewController:inOrientation:</a>
+<a href="#//apple_ref/occ/intfm/UISplitViewControllerDelegate/splitViewController:willHideViewController:withBarButtonItem:forPopoverController:">&#x2013;&#xA0;splitViewController:willHideViewController:withBarButtonItem:forPopoverController:</a>
+<a href="#//apple_ref/occ/intfm/UISplitViewControllerDelegate/splitViewController:willShowViewController:invalidatingBarButtonItem:">&#x2013;&#xA0;splitViewController:willShowViewController:invalidatingBarButtonItem:</a>
+<a href="#//apple_ref/occ/intfm/UISplitViewControllerDelegate/splitViewController:popoverController:willPresentViewController:">&#x2013;&#xA0;splitViewController:popoverController:willPresentViewController:</a>
+
