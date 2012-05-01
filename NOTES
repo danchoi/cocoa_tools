@@ -102,3 +102,12 @@ find $base > pages.txt
 
 
 
+
+
+Instead of launch the html browser, I think I can make this into a completely command line centric if I parse the doc files correctly.
+
+Maybe convert it into some intermediate or reduced format.
+
+
+
+
