@@ -80,6 +80,7 @@ ruby find_apple_refs.rb UISplitViewControllerDelegateProtocol.html
 <a name="//apple_ref/doc/uid/TP40009454-CH1-SW6" title="splitViewController:shouldHideViewController:inOrientation:"/>
 <a name="//apple_ref/doc/uid/TP40009454-CH1-DontLinkElementID_5"/>
 <a name="//apple_ref/occ/intfm/UISplitViewControllerDelegate/splitViewController:willHideViewController:withBarButtonItem:forPopoverController:" title="splitViewController:willHideViewController:withBarButtonItem:forPopoverController:"/>
+
 <a name="//apple_ref/doc/uid/TP40009454-CH1-SW3" title="splitViewController:willHideViewController:withBarButtonItem:forPopoverController:"/>
 <a name="//apple_ref/doc/uid/TP40009454-CH1-DontLinkElementID_6"/>
 <a name="//apple_ref/occ/intfm/UISplitViewControllerDelegate/splitViewController:willShowViewController:invalidatingBarButtonItem:" title="splitViewController:willShowViewController:invalidatingBarButtonItem:"/>
@@ -89,4 +90,15 @@ ruby find_apple_refs.rb UISplitViewControllerDelegateProtocol.html
 <a href="#//apple_ref/occ/intfm/UISplitViewControllerDelegate/splitViewController:willHideViewController:withBarButtonItem:forPopoverController:">&#x2013;&#xA0;splitViewController:willHideViewController:withBarButtonItem:forPopoverController:</a>
 <a href="#//apple_ref/occ/intfm/UISplitViewControllerDelegate/splitViewController:willShowViewController:invalidatingBarButtonItem:">&#x2013;&#xA0;splitViewController:willShowViewController:invalidatingBarButtonItem:</a>
 <a href="#//apple_ref/occ/intfm/UISplitViewControllerDelegate/splitViewController:popoverController:willPresentViewController:">&#x2013;&#xA0;splitViewController:popoverController:willPresentViewController:</a>
+
+
+
+---
+Compile the list of pages
+
+
+base=/Users/choi/Library/Developer/Shared/Documentation/DocSets/com.apple.adc.documentation.AppleiOS5_1.iOSLibrary.docset/Contents/Resources/Documents/documentation
+find $base > pages.txt
+
+
 
