@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-
+require 'nokogiri'
 require 'open-uri'
 
 term = ARGV[0] || 'UISplitViewController'
@@ -21,16 +21,20 @@ target = matches[0]
 #exec "cd #{base} && elinks #{target}"
 
 
-def readdoc(base, target, mode=:elinks)
-  case mode
+def readdoc(base, target, mode=:elinks_dump)
+  cmd = case mode
   when :elinks
-    `cd #{base} && elinks --dump-width 120 --dump #{target}`
+    "cd #{base} && elinks #{target}"
+  when :elinks_dump
+    "cd #{base} && elinks --dump-width 120 --dump #{target}"
   when :cat
-    `cd #{base} && cat #{target}`
+    "cd #{base} && cat #{target}"
   end
+  STDERR.puts cmd
+  mode == :elinks ? exec(cmd) : `#{cmd}`
 end
 
-output = readdoc base, target, :elinks
+output = readdoc base, target, :elinks_dump
 
 if (redirect_target= output[/Refresh: \[1\](.*)$/, 1])
   puts target
@@ -38,11 +42,22 @@ if (redirect_target= output[/Refresh: \[1\](.*)$/, 1])
   puts "Redirecting to: #{target}"
 end
 
+readdoc base, target, :elinks
+
+exit
+
 final_output = readdoc base, target, :cat
-puts final_output
+
+exit
+
+d = Nokogiri::HTML(final_output)
+puts d.at("title")
+# exit
+#puts final_output
 
 
 __END__
 
 ./Cocoa/Reference/Foundation/Classes/NSArray_Class/index.html
    Refresh: [1]NSArray.html
+

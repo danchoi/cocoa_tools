@@ -16,6 +16,6 @@ Gem::Specification.new do |s|
   s.rubyforge_project = "cocoa_tools"
 
   s.test_files    = []
-  s.executables   = ['cocoa']
+  s.executables   = ['cocoa', 'cocoaman']
 
 end
